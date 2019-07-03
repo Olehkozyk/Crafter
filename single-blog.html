@@ -5,11 +5,13 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foundation for Sites</title>
+    <title>Crafter</title>
     <link rel="stylesheet" href="assets/css/app.css">
   </head>
 <body>
 
+<link rel="stylesheet"
+      href="../../../openserver/OSPanel/domains/beetroot/wp-content/themes/beetrootcareer/assets/src/scss/page-templates/_candidate-template.scss">
 <header class="cr-header">
     <div class="row align-middle">
         <div class="column small-6 medium-3">
@@ -29,7 +31,7 @@
                 </ul>
                 <ul class="cr-main-menu-button">
                     <li><a href="" class="cr-nav-download">Download</a></li>
-                    <li><a href="">Contact us</a></li>
+                    <li><a class="popup-form">Contact us</a></li>
                 </ul>
             </nav>
 
@@ -46,11 +48,11 @@
             <div class="close-btn"></div>
             <!-- /.close-btn -->
             <ul class="cr-main-menu-mobile">
-                <li><a href="#">Blog</a></li>
+                <li><a href="blog.html">Blog</a></li>
             </ul>
             <ul class="cr-main-menu-button-mobile">
-                <li ><a href="№" class="cr-nav-download">Download</a></li>
-                <li><a href="">Contact us</a></li>
+                <li ><a href="index.html" class="cr-nav-download">Download</a></li>
+                <li><a class="popup-form">Contact us</a></li>
             </ul>
         </nav>
     </div>
@@ -59,8 +61,18 @@
 <div class="overlay-popup"></div>
 <!-- /.overlay-popup -->
 <div class="form-popup">
-    <form action="">
+    <div class="close-btn-form"></div>
+    <!-- /.close-btn-form -->
+    <h4>Are you an artist and want to know more about our app?</h4>
+    <span>Please leave your contact details below, and we’ll be in touchwithin 24 hours</span>
 
+    <form action="#">
+        <input type="text" required placeholder="Your name*">
+        <input type="text" required placeholder="Your profession*">
+        <input type="text" required placeholder="City*">
+        <input type="email" required placeholder="Email*">
+        <input type="number"  placeholder="Phone number*">
+        <button type="submit">Call me back</button>
     </form>
 </div>
 <!-- /.form-popup --><section class="single-art">
@@ -125,17 +137,17 @@
 <!-- /.single-art --><footer>
     <div class="row padd">
         <div class="column small-12 medium-3">
-            <a class="cr-logo" href="#">Crafter</a>
+            <a class="cr-logo" href="index.html">Crafter</a>
         </div>
         <!-- /.column small-4 -->
         <div class="column small-12 medium-9">
             <div class="block-menu-footer">
                 <ul>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Contact us</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Terms and conditions</a></li>
-                    <li><a href="">Privacy policy</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="terms.html">Terms and conditions</a></li>
+                    <li><a href="privacy.html">Privacy policy</a></li>
                 </ul>
             </div>
             <!-- /.block-menu-footer -->

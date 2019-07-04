@@ -65,13 +65,16 @@
     <!-- /.close-btn-form -->
     <h4>Are you an artist and want to know more about our app?</h4>
     <span>Please leave your contact details below, and we’ll be in touchwithin 24 hours</span>
-
-    <form action="#">
-        <input type="text" required placeholder="Your name*">
-        <input type="text" required placeholder="Your profession*">
-        <input type="text" required placeholder="City*">
-        <input type="email" required placeholder="Email*">
-        <input type="number"  placeholder="Phone number*">
+    <div class="success-form">
+        <p>Application successfully submitted.</p>
+    </div>
+    <!-- /.success-form -->
+    <form action="mailscrip" id="form-input" >
+        <input name="name" id="name" type="text" required placeholder="Your name*">
+        <input name="prof" id="prof" type="text" required placeholder="Your profession*">
+        <input name="city" id="city" type="text" required placeholder="City*">
+        <input name="email" id="email" type="email" required placeholder="Email*">
+        <input name="phone" id="phone" type="number"  placeholder="Phone number*">
         <button type="submit">Call me back</button>
     </form>
 </div>

@@ -3547,6 +3547,7 @@ a {
           transform: translate(-50%, -50%); }
 
 .cr-conten-hero {
+
   position: relative; }
   @media screen and (max-width: 63.99875em) {
     .cr-conten-hero {
@@ -3766,8 +3767,14 @@ a {
             justify-content: center; } }
 
 .section-two {
-  padding-bottom: 0;
-  padding-top: 96px; }
+  padding-bottom: 150px;
+  padding-top: 150px; }
+@media print, screen and (max-width: 64em) {
+    .section-two {
+      padding-bottom: 100px;
+      padding-top: 130px;
+    }
+  }
   .section-two .block-img {
     -webkit-box-pack: center;
     -webkit-justify-content: center;

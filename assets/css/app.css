@@ -4379,7 +4379,8 @@ footer {
     color: #666666; }
     @media screen and (max-width: 63.99875em) {
       .block-list ol {
-        padding-left: 0; } }
+        padding-left: 0;
+        font-size: 14px;} }
     .block-list ol li + li {
       margin-top: 20px; }
   .block-list p {

@@ -3327,6 +3327,7 @@ a {
   margin-top: 20px;
   padding: 30px 0 20px; }
   .cr-main-menu-mobile li {
+    text-align: center;
     padding-bottom: 30px; }
   .cr-main-menu-mobile a {
     font-size: 16px;
@@ -3341,7 +3342,7 @@ a {
   font-weight: normal;
   padding: 14px 0;
   color: #fff;
-  background-color: #3597ec;
+  background-color: #a4001d;
   width: 100%;
   padding: 17px 0; }
 
